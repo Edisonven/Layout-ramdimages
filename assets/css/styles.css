@@ -1,3 +1,6 @@
+:root {
+  --background-1-color: #4775f7;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -7,18 +10,29 @@ body {
 }
 .container {
   display: grid;
+  grid-template-areas: "navbar";
 }
-.navbar__container{
-padding: 20px;
+.navbar {
+  grid-area: navbar;
 }
-.navbar__title__container{
-    grid-area: nav;
+.navbar__container {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-areas: "logo icons";
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--background-1-color);
+}
+.navbar__icons {
+  grid-area: icons;
 }
 .navbar__title__container {
   display: flex;
   align-items: center;
   gap: 20px;
+  grid-area: logo;
 }
-.navbar__logo{
-    width: 100px;
+.navbar__logo {
+  width: 70px;
 }
