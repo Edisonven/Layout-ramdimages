@@ -1,5 +1,5 @@
 :root {
-  --background-1-color: #4775f7;
+  --background-color: #000000e7;
   --color-primario: #fff;
 }
 * {
@@ -31,6 +31,7 @@ body {
   background-position: bottom;
   --open: scale(1);
   --close: scale(0);
+  position: relative;
 }
 .navbar__container:has(:target){
     --open: scale(0);
@@ -56,4 +57,28 @@ body {
 }
 .navbar__close__icon {
   transform: var(--close);
+}
+.navbar__items{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    right: 0;
+    top: 100%;
+    list-style: none;
+    background-color: var(--background-color);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    width: 300px;
+    height: 400px;
+    transition: all linear 0.3s;
+}
+.navbar__link{
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navbar__items:target{
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
