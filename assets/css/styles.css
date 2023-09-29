@@ -11,7 +11,9 @@ body {
 }
 .container {
   display: grid;
-  grid-template-areas: "navbar";
+  grid-template-areas: 
+  "navbar"
+  "galery";
 }
 
 /*APARTADO NAVBAR*/
@@ -81,4 +83,26 @@ body {
 }
 .navbar__items:target{
     clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
+
+/*APARTADO MENU GALERÍA*/
+.galery__container{
+    grid-area: galery;
+    width: 90%;
+    margin: 50px auto;
+}
+.galery__title{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.galery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.galery__img{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
 }
