@@ -1,5 +1,6 @@
 :root {
   --background-1-color: #4775f7;
+  --color-primario:#fff;
 }
 * {
   margin: 0;
@@ -22,7 +23,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: var(--background-1-color);
+  background-image:url(../images/fondo.jpg);
+  height: 100px;
+  object-fit: cover;
+  background-position: bottom;
 }
 .navbar__icons {
   grid-area: icons;
@@ -35,4 +39,7 @@ body {
 }
 .navbar__logo {
   width: 70px;
+}
+.navbar__title{
+    color:var(--color-primario) ;
 }
