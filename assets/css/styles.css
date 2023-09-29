@@ -1,6 +1,6 @@
 :root {
   --background-1-color: #4775f7;
-  --color-primario:#fff;
+  --color-primario: #fff;
 }
 * {
   margin: 0;
@@ -13,6 +13,8 @@ body {
   display: grid;
   grid-template-areas: "navbar";
 }
+
+/*APARTADO NAVBAR*/
 .navbar {
   grid-area: navbar;
 }
@@ -23,10 +25,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-image:url(../images/fondo.jpg);
+  background-image: url(../images/fondo.jpg);
   height: 100px;
   object-fit: cover;
   background-position: bottom;
+  --open: scale(1);
+  --close: scale(0);
+}
+.navbar__container:has(:target){
+    --open: scale(0);
+    --close: scale(1);
 }
 .navbar__icons {
   grid-area: icons;
@@ -40,6 +48,12 @@ body {
 .navbar__logo {
   width: 70px;
 }
-.navbar__title{
-    color:var(--color-primario) ;
+.navbar__title {
+  color: var(--color-primario);
+}
+.navbar__open__icon {
+  transform: var(--open);
+}
+.navbar__close__icon {
+  transform: var(--close);
 }
