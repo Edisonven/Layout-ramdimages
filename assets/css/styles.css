@@ -2,6 +2,23 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: grid;
+}
+.navbar__container{
+padding: 20px;
+}
+.navbar__title__container{
+    grid-area: nav;
+}
+.navbar__title__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar__logo{
+    width: 100px;
 }
