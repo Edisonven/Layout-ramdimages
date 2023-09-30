@@ -264,9 +264,14 @@ div[id] {
     padding: 0 10px;
     border-radius: 10px;
   }
+  .footer__social__redes{
+    gap: 90px;
+  }
+  .footer__social__icon__redes {
+    transition: all linear 0.1s;
+  }
   .footer__social__icon__redes:hover {
     transform: scale(1.2) translateY(-8px);
-    transition: all linear 0.2s;
   }
 }
 @media (min-width: 1200px) {
