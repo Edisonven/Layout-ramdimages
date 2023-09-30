@@ -134,7 +134,14 @@ div[id]{
   align-items: center;
   color: var(--color-primario);
   gap: 20px;
+  margin-bottom: 50px;
 }
 .footer__img {
   width: 80px;
+}
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-primario);
 }
