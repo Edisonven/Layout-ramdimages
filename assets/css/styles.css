@@ -221,11 +221,47 @@ div[id] {
     display: flex;
     gap: 40px;
     justify-content: space-evenly;
+    padding: 40px;
   }
   .footer__social__icons {
     gap: 40px;
     justify-content: center;
     margin: 0;
+    
+  }
+  .footer__social__icon--faceboook::after {
+    content: "Facebook";
+    font-size: 0.8rem;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+    top: 120%;
+    left: -150%;
+    transform: scale(1);
+    transition: 0.3s;
+    background-color: rgba(4, 57, 241, 1);
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+  .footer__social__icon--instagram::after {
+    content: "Instagram";
+    font-size: 0.8rem;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+    top: 120%;
+    left: -160%;
+    transform: scale(1);
+    transition: 0.3s;
+    background-color: rgba(144, 6, 133, 1);
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+  .footer__social__icon__redes:hover {
+    transform: scale(1.2) translateY(-8px);
+    transition: all linear 0.2s;
   }
 }
 @media (min-width: 1200px) {
