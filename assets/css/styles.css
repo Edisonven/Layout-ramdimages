@@ -215,7 +215,7 @@ div[id] {
   }
   .galery__img {
     max-width: 400px;
-    transition: transform linear 0.2s;
+    transition: transform linear 0.2s , filter linear 0.2s;
     cursor: pointer;
   }
   .galery__img--1:hover {
