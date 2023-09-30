@@ -216,7 +216,7 @@ div[id] {
   }
   .galery__img {
     max-width: 400px;
-    transition: all linear 0.2s;
+    transition: transform linear 0.2s;
     cursor: pointer;
   }
   .galery__img--1:hover {
@@ -282,7 +282,7 @@ div[id] {
     gap: 90px;
   }
   .footer__social__icon__redes {
-    transition: all linear 0.1s;
+    transition: transform linear 0.1s;
   }
   .footer__social__icon__redes:hover {
     transform: scale(1.2) translateY(-8px);
