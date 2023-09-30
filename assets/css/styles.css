@@ -191,6 +191,12 @@ div[id] {
     padding: 10px;
     transition: none;
   }
+  .navbar__item {
+    transition: all linear 0.2s;
+  }
+  .navbar__item:hover {
+    transform: scale(1.2);
+  }
   .navbar__icons {
     display: none;
   }
