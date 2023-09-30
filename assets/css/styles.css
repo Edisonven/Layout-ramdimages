@@ -145,3 +145,25 @@ div[id]{
     align-items: center;
     color: var(--color-primario);
 }
+.footer__social__section{
+  text-align: center;
+}
+.footer__social__icon{
+  transform: scale(1.8);
+  margin-top: 20px;
+}
+.footer__social__icons{
+  margin-bottom: 40px;
+}
+.footer__social__contact{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+}
+.footer__social__redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
