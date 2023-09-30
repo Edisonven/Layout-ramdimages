@@ -89,7 +89,7 @@ div[id] {
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   width: 300px;
   height: 400px;
-  transition: all linear 0.3s;
+  transition: clip-path linear 0.3s;
 }
 .navbar__link {
   color: var(--color-primario);
@@ -192,10 +192,9 @@ div[id] {
     clip-path: none;
     background-color: transparent;
     padding: 10px;
-    transition: none;
   }
   .navbar__item {
-    transition: all linear 0.2s;
+    transition: transform linear 0.2s;
   }
   .navbar__item:hover {
     transform: scale(1.2);
@@ -257,7 +256,7 @@ div[id] {
     top: 120%;
     left: -150%;
     transform: scale(1);
-    transition: 0.3s;
+    transition: transform linear 0.3s;
     background-color: rgba(4, 57, 241, 1);
     color: #fff;
     padding: 0 10px;
