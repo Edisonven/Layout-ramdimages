@@ -272,7 +272,7 @@ div[id] {
     top: 120%;
     left: -160%;
     transform: scale(1);
-    transition: 0.3s;
+    transition: transform linear 0.3s;
     background-color: rgba(144, 6, 133, 1);
     color: #fff;
     padding: 0 10px;
