@@ -12,9 +12,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-div[id]{
-    scroll-margin-top: 115px;
-  }
+div[id] {
+  scroll-margin-top: 115px;
+}
 .container {
   display: grid;
   grid-template-areas:
@@ -119,7 +119,6 @@ div[id]{
   width: 100%;
   max-width: 600px;
   height: 300px;
-  box-shadow: 5px 5px 5px black;
   object-fit: cover;
 }
 
@@ -139,31 +138,87 @@ div[id]{
 .footer__img {
   width: 80px;
 }
-.footer__social{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--color-primario);
-}
-.footer__social__section{
+.footer__social__section {
   text-align: center;
+  color: var(--color-primario);
 }
-.footer__social__icon{
+.footer__social__icon {
   transform: scale(1.8);
   margin-top: 20px;
 }
-.footer__social__icons{
+.footer__social__icons {
   margin-bottom: 40px;
 }
-.footer__social__contact{
+.footer__social__contact {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
 }
-.footer__social__redes{
+.footer__social__redes {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+@media (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 300px auto;
+
+    grid-template-areas:
+      "navbar galery"
+      "navbar galery"
+      "footer footer";
+  }
+  .navbar__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    height: 100%;
+    background-image: url(../images/fondo.jpg);
+  }
+  .navbar__items {
+    position: static;
+    clip-path: none;
+    background-color: transparent;
+    padding: 10px;
+    transition: none;
+  }
+  .navbar__icons {
+    display: none;
+  }
+  .galery__container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .galery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .galery__img {
+    max-width: 400px;
+  }
+  .footer__logo {
+    margin: 0;
+  }
+  .footer__container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+  .footer__social__icons {
+    gap: 40px;
+    justify-content: center;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__social__icons {
+    display: flex;
+  }
 }
