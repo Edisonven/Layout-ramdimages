@@ -143,7 +143,7 @@ div[id] {
   color: var(--color-primario);
 }
 .footer__social__icon {
-  transform: scale(1.8);
+  transform: scale(1.6);
   margin-top: 20px;
 }
 .footer__social__icons {
