@@ -74,9 +74,11 @@ div[id] {
 }
 .navbar__open__icon {
   transform: var(--open);
+  transition: transform linear 0.3s;
 }
 .navbar__close__icon {
   transform: var(--close);
+  transition: transform linear 0.3s;
 }
 .navbar__items {
   position: absolute;
@@ -93,6 +95,7 @@ div[id] {
   height: 400px;
   transition: all ease-in-out 0.4s;
   z-index: 20;
+  border-radius: 0 0 0 20px;
 }
 .navbar__link {
   color: var(--color-primario);
