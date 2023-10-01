@@ -85,14 +85,13 @@ div[id] {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  right: 0;
+  right: -100%;
   top: 100%;
   list-style: none;
   background-color: rgba(0, 0, 0, 0.904);
-  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   width: 300px;
   height: 400px;
-  transition: clip-path linear 0.3s;
+  transition: all ease-in-out 0.4s;
   z-index: 20;
 }
 .navbar__link {
@@ -101,7 +100,7 @@ div[id] {
   font-size: 1.5rem;
 }
 .navbar__items:target {
-  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+  right: 0%;
 }
 
 /*APARTADO BARRA DE BÚSQUEDA*/
