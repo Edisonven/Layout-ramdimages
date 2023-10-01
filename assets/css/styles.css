@@ -161,15 +161,17 @@ div[id] {
   max-width: 600px;
   max-height: 400px;
   object-fit: cover;
-  transition: transform linear 0.4s;
+  transition: all linear 0.2s;
 }
 .galery__content {
   position: relative;
   overflow: hidden;
 }
-.galery__content:hover img {
+
+.galery__content:hover .galery__img {
   transform: scale(1.05);
   cursor: pointer;
+  filter: brightness(80%);
 }
 .galery__icon {
   background-color: #270009;
