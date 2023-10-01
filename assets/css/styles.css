@@ -120,7 +120,7 @@ div[id] {
   gap: 5px;
   background-color: red;
   border-radius: 0 10px 10px 0;
- padding-right: 5px;
+  padding-right: 5px;
 }
 .header__icon {
   transform: scale(1.2);
@@ -233,6 +233,7 @@ div[id] {
     grid-template-columns: 300px auto;
 
     grid-template-areas:
+      "navbar header"
       "navbar galery"
       "navbar galery"
       "footer footer";
@@ -259,6 +260,20 @@ div[id] {
   }
   .navbar__icons {
     display: none;
+  }
+  .header__select{
+    height: 40px;
+  }
+  .header__input {
+    margin-top: 0;
+    padding: 30px;
+  }
+  .header__input__search {
+    width: 100%;
+  }
+  [placeholder="BUSCAR IMAGENES"]{
+    width: 100%;
+    height: 40px;
   }
   .galery__container {
     margin: 20px auto;
