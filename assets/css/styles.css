@@ -126,7 +126,7 @@ div[id] {
 /*APARTADO FOOTER*/
 .footer__container {
   grid-area: footer;
-  background-color: #000F0F;
+  background-color: #000f0f;
   padding: 40px;
 }
 .footer__logo {
@@ -145,7 +145,7 @@ div[id] {
   flex-direction: column;
   color: var(--color-primario);
 }
-.footer__section{
+.footer__section {
   margin-bottom: 50px;
 }
 .footer__section__title {
@@ -166,7 +166,7 @@ div[id] {
 .footer__social__section--first {
   margin-bottom: 80px;
 }
-.footer__social__section--second{
+.footer__social__section--second {
   text-align: center;
 }
 .footer__social__icon {
@@ -263,8 +263,12 @@ div[id] {
   }
   .footer__sections {
     display: flex;
+    gap: 30px;
     flex-direction: row;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
+  }
+  .footer__sections--border {
+    border-bottom: 1px solid;
   }
   .footer__social__icons {
     gap: 40px;
