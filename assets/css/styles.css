@@ -168,7 +168,7 @@ div[id] {
   position: relative;
   overflow: hidden;
 }
-.galery__content:hover img{
+.galery__content:hover img {
   transform: scale(1.09);
   cursor: pointer;
 }
@@ -188,11 +188,11 @@ div[id] {
   padding: 5px;
   z-index: 2;
 }
-.galery__icon--fav::after{
+.galery__icon--heart::after {
   content: "Me gusta";
   color: black;
 }
-.galery__icon:hover{
+.galery__icon:hover {
   outline: 2px solid #fff;
 }
 .galery__icon--fav {
@@ -302,6 +302,9 @@ div[id] {
     background-color: var(--background);
     z-index: 8;
   }
+  .navbar__fondo{
+    display: none;
+  }
   .navbar__items {
     position: static;
     clip-path: none;
@@ -385,7 +388,6 @@ div[id] {
     font-weight: 700;
     top: 120%;
     left: -150%;
-    transform: scale(1);
     transition: transform linear 0.3s;
     background-color: rgba(4, 57, 241, 1);
     color: #fff;
@@ -400,7 +402,6 @@ div[id] {
     font-weight: 700;
     top: 120%;
     left: -160%;
-    transform: scale(1);
     transition: transform linear 0.3s;
     background-color: rgba(144, 6, 133, 1);
     color: #fff;
