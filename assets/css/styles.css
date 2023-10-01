@@ -146,18 +146,18 @@ div[id] {
   width: 90%;
   margin: 20px auto;
 }
-.galery__info__title{
+.galery__info__title {
   margin: 30px 0;
 }
-.galery__info__text{
+.galery__info__text {
   margin: 20px 0;
 }
-.galery__geometric{
+.galery__geometric {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
-.galery__rectangle{
+.galery__rectangle {
   color: var(--color-primario);
   background-color: green;
   border: 1px solid black;
@@ -165,14 +165,14 @@ div[id] {
   width: 100%;
   text-align: center;
 }
-.galery__rectangle--1{
-  transition: background-color linear 0.4s
+.galery__rectangle--1 {
+  transition: background-color linear 0.5s;
 }
-.galery__rectangle--1:hover{
+.galery__rectangle--1:hover {
   cursor: pointer;
   background-color: var(--background-color);
 }
-.galery__rectangle--2:hover{
+.galery__rectangle--2:hover {
   cursor: pointer;
   background-color: var(--background-color);
 }
@@ -191,18 +191,18 @@ div[id] {
   height: 300px;
   object-fit: cover;
 }
-.galery__text{
+.galery__text {
   margin-bottom: 15px;
   padding-left: 50px;
   font-weight: 700;
 }
-.galery__info__link{
+.galery__info__link {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
   width: max-content;
 }
-.galery__info__link:hover{
+.galery__info__link:hover {
   color: var(--background);
   text-decoration: underline;
 }
@@ -260,10 +260,13 @@ div[id] {
 .footer__social__icons {
   margin-bottom: 20px;
 }
+.footer__social__icons__contact {
+  padding-left: 40px;
+}
 .footer__social__contact {
   display: flex;
   align-items: flex-end;
-  gap: 30px;
+  gap: 15px;
 }
 .footer__social__redes {
   display: flex;
@@ -330,7 +333,7 @@ div[id] {
     display: flex;
     flex-direction: column;
   }
-  .galery__rectangle{
+  .galery__rectangle {
     padding: 50px;
     font-size: 1.5rem;
   }
@@ -376,10 +379,13 @@ div[id] {
   .footer__sections--border {
     border-bottom: 1px solid;
   }
-  .footer__social__icons {
+  .footer__social__icons__contact {
     gap: 40px;
     justify-content: center;
     margin: 0;
+  }
+  .footer__social__icons__contact {
+    padding-left: 0;
   }
   .footer__social__section--first {
     margin-bottom: 0px;
@@ -425,7 +431,7 @@ div[id] {
   }
 }
 @media (min-width: 1200px) {
-  .footer__social__icons {
+  .footer__social__icons__contact {
     display: flex;
   }
 }
