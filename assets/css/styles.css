@@ -165,17 +165,6 @@ div[id] {
   width: 100%;
   text-align: center;
 }
-.galery__rectangle--1 {
-  transition: background-color linear 0.5s;
-}
-.galery__rectangle--1:hover {
-  cursor: pointer;
-  background-color: var(--background-color);
-}
-.galery__rectangle--2:hover {
-  cursor: pointer;
-  background-color: var(--background-color);
-}
 .galery__title {
   font-size: 1.8rem;
   margin: 20px 0;
@@ -191,20 +180,23 @@ div[id] {
   max-height: 400px;
   object-fit: cover;
 }
-.galery__text {
-  margin-bottom: 15px;
-  padding-left: 50px;
-  font-weight: 700;
+.galery__img--1 {
+  position: relative;
 }
-.galery__info__link {
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  width: max-content;
+.galery__icon--heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
-.galery__info__link:hover {
-  color: var(--background);
-  text-decoration: underline;
+.galery__icon--fav{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.galery__icon--down{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
 }
 
 /*APARTADO FOOTER*/
@@ -333,10 +325,6 @@ div[id] {
     display: flex;
     flex-direction: column;
   }
-  .galery__rectangle {
-    padding: 50px;
-    font-size: 1.5rem;
-  }
   .galery {
     flex-direction: row;
     flex-wrap: wrap;
@@ -347,18 +335,6 @@ div[id] {
     max-width: 400px;
     transition: transform linear 0.2s, filter linear 0.2s;
     cursor: pointer;
-  }
-  .galery__img--1:hover {
-    transform: scale(1.1);
-  }
-  .galery__img--2:hover {
-    transform: rotateY(180deg);
-  }
-  .galery__img--3:hover {
-    filter: grayscale(100%);
-  }
-  .galery__img--4:hover {
-    filter: blur(5px);
   }
   .footer__logo {
     margin: 0;
