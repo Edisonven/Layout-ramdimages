@@ -43,6 +43,7 @@ div[id] {
   --close: scale(0);
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 .navbar__fondo {
   position: absolute;
@@ -146,25 +147,6 @@ div[id] {
   width: 90%;
   margin: 20px auto;
 }
-.galery__info__title {
-  margin: 30px 0;
-}
-.galery__info__text {
-  margin: 20px 0;
-}
-.galery__geometric {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-}
-.galery__rectangle {
-  color: var(--color-primario);
-  background-color: green;
-  border: 1px solid black;
-  padding: 5px 50px;
-  width: 100%;
-  text-align: center;
-}
 .galery__title {
   font-size: 1.8rem;
   margin: 20px 0;
@@ -179,24 +161,53 @@ div[id] {
   max-width: 600px;
   max-height: 400px;
   object-fit: cover;
+  transition: transform linear 0.3s;
+  box-shadow: inset 0 0 15px 20px black;
 }
-.galery__img--1 {
+.galery__content {
   position: relative;
+  overflow: hidden;
+}
+.galery__content:hover img{
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.galery__icon {
+  background-color: #270009;
+  border-radius: 10px;
+  transform: scale(0);
+  cursor: pointer;
+}
+.galery__content:hover .galery__icon {
+  transform: scale(1);
 }
 .galery__icon--heart {
   position: absolute;
   top: 10px;
   right: 10px;
+  padding: 5px;
+  z-index: 2;
 }
-.galery__icon--fav{
+.galery__icon--heart::after{
+  content: "Me gusta";
+  color: #fff;
+}
+.galery__icon:hover{
+  outline: 2px solid #fff;
+}
+.galery__icon--fav {
   position: absolute;
   top: 10px;
-  right: 50px;
+  right: 70px;
+  padding: 5px;
+  z-index: 2;
 }
-.galery__icon--down{
+.galery__icon--down {
   position: absolute;
   bottom: 20px;
   right: 10px;
+  padding: 5px;
+  z-index: 2;
 }
 
 /*APARTADO FOOTER*/
@@ -289,6 +300,7 @@ div[id] {
     position: relative;
     height: 100%;
     background-color: var(--background);
+    z-index: 8;
   }
   .navbar__items {
     position: static;
@@ -333,8 +345,7 @@ div[id] {
   }
   .galery__img {
     max-width: 400px;
-    transition: transform linear 0.2s, filter linear 0.2s;
-    cursor: pointer;
+    max-height: 300px;
   }
   .footer__logo {
     margin: 0;
