@@ -127,6 +127,12 @@ div[id] {
   color: var(--color-primario);
   margin-top: 50px;
 }
+.header_title__text{
+  color: var(--color-primario);
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
 .header__img__content{
   display: flex;
   gap: 20px;
@@ -364,6 +370,13 @@ div[id] {
   }
   .header__img__container{
     margin: 0;
+  }
+  .header__img__title{
+    font-size: 2.5rem;
+  }
+  .header__img__content{
+    justify-content: flex-end;
+    padding-right: 50px;
   }
   [placeholder="BUSCAR IMAGENES"] {
     width: 100%;
