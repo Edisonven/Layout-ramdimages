@@ -177,6 +177,7 @@ div[id] {
   border-radius: 10px;
   transform: scale(0);
   cursor: pointer;
+  padding: 10px;
 }
 .galery__content:hover .galery__icon {
   transform: scale(1);
@@ -185,7 +186,6 @@ div[id] {
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 5px;
   z-index: 2;
 }
 .galery__icon--heart::after {
@@ -199,14 +199,12 @@ div[id] {
   position: absolute;
   top: 10px;
   right: 70px;
-  padding: 5px;
   z-index: 2;
 }
 .galery__icon--down {
   position: absolute;
   bottom: 20px;
   right: 10px;
-  padding: 5px;
   z-index: 2;
 }
 
