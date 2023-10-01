@@ -256,9 +256,15 @@ div[id] {
   }
   .footer__container {
     display: flex;
+    flex-direction: column;
     gap: 40px;
     justify-content: space-evenly;
     padding: 40px;
+  }
+  .footer__sections {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
   }
   .footer__social__icons {
     gap: 40px;
