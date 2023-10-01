@@ -188,9 +188,9 @@ div[id] {
   padding: 5px;
   z-index: 2;
 }
-.galery__icon--heart::after{
+.galery__icon--fav::after{
   content: "Me gusta";
-  color: #fff;
+  color: black;
 }
 .galery__icon:hover{
   outline: 2px solid #fff;
