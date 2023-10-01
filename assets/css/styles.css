@@ -108,7 +108,7 @@ div[id] {
 .hedaer {
   grid-area: header;
 }
-.header__img__container{
+.header__img__container {
   background-image: url(../images/cordillera.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,30 +116,24 @@ div[id] {
   width: 100%;
   margin-top: 100px;
 }
-.header__img{
-  display: block;
-  width: 100%;
-  margin-top: 100px;
-  filter: brightness(60%);
-}
-.header__img__title{
+.header__img__title {
   text-align: center;
   color: var(--color-primario);
   margin-top: 50px;
 }
-.header_title__text{
+.header_title__text {
   color: var(--color-primario);
   text-align: center;
   font-weight: 700;
   margin-top: 20px;
 }
-.header__img__content{
+.header__img__content {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
-.header__img__text{
+.header__img__text {
   color: var(--color-primario);
   font-weight: 700;
   background-color: #00000046;
@@ -149,7 +143,7 @@ div[id] {
   margin-top: 20px;
   transition: opacity linear 0.2s;
 }
-.header__img__text:hover{
+.header__img__text:hover {
   opacity: 70%;
 }
 .header__input {
@@ -302,6 +296,7 @@ div[id] {
 }
 .footer__social__icons__contact {
   padding-left: 40px;
+  display: flex;
 }
 .footer__social__contact {
   display: flex;
@@ -368,15 +363,15 @@ div[id] {
   .header__input__search {
     width: 100%;
   }
-  .header__img__container{
+  .header__img__container {
     margin: 0;
   }
-  .header__img__title{
+  .header__img__title {
     font-size: 2.5rem;
   }
-  .header__img__content{
+  .header__img__content {
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 30px;
   }
   [placeholder="BUSCAR IMAGENES"] {
     width: 100%;
@@ -464,13 +459,7 @@ div[id] {
     transform: scale(1.2) translateY(-8px);
   }
   .footer__social__icon--instagram:hover::after,
-  .footer__social__icon--facebook:hover::after
-  {
+  .footer__social__icon--facebook:hover::after {
     transform: scale(1);
-  }
-}
-@media (min-width: 1200px) {
-  .footer__social__icons__contact {
-    display: flex;
   }
 }
