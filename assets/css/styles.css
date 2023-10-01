@@ -113,7 +113,7 @@ div[id] {
   justify-content: center;
   margin-top: 100px;
   background-color: #270009;
-  padding: 10px;
+  padding: 20px;
 }
 .header__input__search {
   display: flex;
