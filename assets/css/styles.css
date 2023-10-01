@@ -166,8 +166,9 @@ div[id] {
   padding: 10px 30px;
   border-radius: 50px;
   text-decoration: none;
-  margin-top: 20px;
+  margin-top: 10px;
   transition: opacity linear 0.2s;
+  font-size: 0.8rem;
 }
 .header__img__text:hover {
   opacity: 70%;
