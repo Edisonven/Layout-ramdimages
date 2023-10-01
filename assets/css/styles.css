@@ -188,7 +188,7 @@ div[id] {
 .galery__img {
   width: 100%;
   max-width: 600px;
-  height: 300px;
+  max-height: 400px;
   object-fit: cover;
 }
 .galery__text {
