@@ -221,19 +221,22 @@ div[id] {
   text-decoration: none;
   color: #000;
 }
-.header__link:hover{
-  background-color:#00000028;
+.header__link:hover {
+  background-color: #00000028;
   outline: 10px solid #00000028;
   border-radius: 10px;
   opacity: 60%;
 }
 .header__select__menu__link {
-  color: #696666;
+  color: #000;
   text-decoration: none;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
+}
+.header__select__menu__link:hover {
+  opacity: 50%;
 }
 
 /*APARTADO MENU GALERÍA*/
@@ -444,7 +447,7 @@ div[id] {
   .navbar__icons {
     display: none;
   }
-  .header__select__container{
+  .header__select__container {
     height: 42px;
     width: 40%;
     min-width: 250px;
