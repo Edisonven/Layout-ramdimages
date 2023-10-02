@@ -96,6 +96,12 @@ div[id] {
   transition: all ease-in-out 0.4s;
   z-index: 20;
   border-radius: 0 0 0 20px;
+  padding: 0;
+}
+.navbar__item__text{
+  color: var(--color-primario);
+  text-align: center;
+  padding: 0 20px;
 }
 .navbar__link {
   color: var(--color-primario);
@@ -364,17 +370,24 @@ div[id] {
     background-color: var(--background);
     z-index: 8;
   }
+  .navbar__title__container{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+  }
   .navbar__fondo {
     display: none;
   }
   .navbar__items {
     position: static;
-    clip-path: none;
     background-color: transparent;
     padding: 10px;
+    transition:none;
   }
   .navbar__item {
     transition: transform linear 0.2s;
+  }
+  .navbar__item__text{
+    margin-top: 40px;
   }
   .navbar__item:hover {
     transform: scale(1.2);
