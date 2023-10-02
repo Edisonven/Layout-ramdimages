@@ -56,13 +56,28 @@
                     <p class="header_title__text">Encuentra imagenes y fotos con la mejor calidad</p>
                 </div>
                 <div class="header__input">
-                    <select class="header__select">
-                        <option value="Imagen">Todas Las Imagenes</option>
-                        <option value="Fotos">Animales</option>
-                        <option value="Paisajes">Paisajes</option>
-                        <option value="Objetos">Ciudades</option>
-                        <option value="Objetos">GIF</option>
-                    </select>
+                    <div class="header__select__container">
+                        <a class="header__link header__select__menu__link" href="#hola">
+                            <p class="header__select__text">Todas las imágenes</p>
+                        </a>
+                        <ul class="header__menu" id="hola">
+                            <li class="header__item">
+                                <a class="header__link" href="#">Paisajes</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link" href="#">Personas</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link" href="#">Animales</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link" href="#">Deportes</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link" href="#">Ciudades</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="header__input__search">
                         <input type="search" placeholder="BUSCAR IMAGENES" name="search" id="">
                         <img src="./assets/images/lupa.svg" alt="" class="header__icon">
