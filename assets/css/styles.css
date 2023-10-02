@@ -432,6 +432,10 @@ div[id] {
   .navbar__icons {
     display: none;
   }
+  .header__select__container{
+    height: 42px;
+    width: 20%;
+  }
   .header__select {
     height: 40px;
     padding: 0 10px;
