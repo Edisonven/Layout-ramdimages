@@ -311,7 +311,7 @@ div[id] {
   filter: brightness(75%);
 }
 .galery__icon {
-  background-color: #270009;
+  background-color: #270009be;
   border-radius: 10px;
   transform: scale(0);
   cursor: pointer;
