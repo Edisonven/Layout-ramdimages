@@ -471,7 +471,7 @@ div[id] {
   }
   .header__select__container {
     height: 42px;
-    width: 40%;
+    width: 20%;
     min-width: 250px;
   }
   .header__select {
