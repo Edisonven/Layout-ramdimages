@@ -357,11 +357,13 @@ div[id] {
   gap: 20px;
   margin-bottom: 50px;
   flex-direction: column;
+  text-align: center;
 }
 .footer__logo__content{
   display: flex;
   align-items: center;
   gap: 20px;
+ 
 }
 .footer__img {
   width: 80px;
