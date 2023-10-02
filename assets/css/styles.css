@@ -197,12 +197,10 @@ div[id] {
 }
 .header__select__icon {
   transform: var(--rotate, 0);
-  transition: transform linear 0.2s;
 }
 .header__content {
   display: grid;
   grid-template-rows: var(--rows, 0fr);
-  transition: grid-template-rows linear 0.3s;
 }
 .header__item--1 {
   padding-top: 20px;
@@ -220,6 +218,7 @@ div[id] {
   outline: 1px solid #000;
   z-index: 4;
   overflow: hidden;
+  box-shadow: 2px 2px 8px #000;
 }
 .header__check {
   position: absolute;
