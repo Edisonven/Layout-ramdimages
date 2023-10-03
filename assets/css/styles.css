@@ -126,7 +126,6 @@ div[id] {
   background-size: cover;
   height: 400px;
   width: 100%;
-  margin-top: 100px;
   padding: 10px;
 }
 .header__img__title {
@@ -145,6 +144,7 @@ div[id] {
   gap: 40px;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 .header__img__text {
   color: var(--color-primario);
@@ -503,9 +503,14 @@ div[id] {
   .header__img__title {
     font-size: 2.5rem;
   }
+  .header__img__container {
+    background-image: url(../images/cordillera-desktop.jpg);
+    display: block;
+  }
   .header__img__content {
     justify-content: flex-end;
     padding-right: 30px;
+    margin-top: 0;
   }
   [placeholder="BUSCAR IMAGENES"] {
     width: 100%;
