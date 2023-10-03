@@ -432,7 +432,7 @@ div[id] {
       "navbar header"
       "navbar galery"
       "navbar galery"
-      "footer footer";
+      "navbar footer";
   }
   .navbar__container {
     display: flex;
@@ -523,6 +523,8 @@ div[id] {
     gap: 40px;
     justify-content: space-evenly;
     padding: 40px;
+    position: relative;
+    z-index: 10;
   }
   .galery__content {
     height: 300px;
