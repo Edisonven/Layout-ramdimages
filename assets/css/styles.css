@@ -1,8 +1,8 @@
 :root {
   --background-color: #000;
   --color-primario: #fff;
-  --background-color1:#001424;
-  --background-color2:#03133B;
+  --background-color1: #001424;
+  --background-color2: #03133b;
 }
 html {
   scroll-behavior: smooth;
@@ -265,7 +265,7 @@ div[id] {
 /*APARTADO MENU GALERÍA*/
 .galery__container {
   grid-area: galery;
-  width: 90%;
+  width: 97%;
   margin: 20px auto;
 }
 .galery__title {
@@ -273,8 +273,8 @@ div[id] {
   margin: 20px 0;
 }
 .galery {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: (1fr);
   gap: 20px;
 }
 .galery__img {
@@ -289,7 +289,7 @@ div[id] {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 20px;
 }
 .galery__content__icons {
   display: flex;
@@ -525,13 +525,9 @@ div[id] {
     flex-direction: column;
   }
   .galery {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
   .galery__img {
-    width: 430px;
     height: 300px;
   }
   .footer__logo {
