@@ -1,7 +1,8 @@
 :root {
   --background-color: #000;
   --color-primario: #fff;
-  --background: #270009;
+  --background-color1:#001424;
+  --background-color2:#03133B;
 }
 html {
   scroll-behavior: smooth;
@@ -164,7 +165,7 @@ div[id] {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #270009;
+  background-color: var(--background-color1);
   padding: 20px;
   position: relative;
 }
@@ -298,12 +299,12 @@ div[id] {
   text-decoration: none;
 }
 .galery__content__icons--active {
-  outline: 10px solid #2700092a;
-  background-color: #2700092a;
+  outline: 10px solid #0014243b;
+  background-color: #0014243b;
 }
 .galery__content__icons:hover {
-  outline: 10px solid #2700092a;
-  background-color: #2700092a;
+  outline: 10px solid #0014243b;
+  background-color: #0014243b;
 }
 .galery__content__link {
   color: var(--background-color);
@@ -354,7 +355,7 @@ div[id] {
 /*APARTADO FOOTER*/
 .footer__container {
   grid-area: footer;
-  background-color: #000f0f;
+  background-color: var(--background-color1);
   padding: 40px;
 }
 .footer__logo {
@@ -451,7 +452,7 @@ div[id] {
     position: fixed;
     height: 100%;
     width: 250px;
-    background-color: var(--background);
+    background-color: var(--background-color1);
     z-index: 8;
   }
   .navbar__title__container {
