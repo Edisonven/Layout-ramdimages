@@ -555,7 +555,11 @@ div[id] {
     padding-left: 0;
   }
   .footer__social__section--first {
-    margin-bottom: 0px;
+    margin-bottom: 0;
+  }
+  .footer__social__icon--facebook,
+  .footer__social__icon--instagram{
+    position: relative;
   }
   .footer__social__icon--facebook::after {
     content: "Facebook";
