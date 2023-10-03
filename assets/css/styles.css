@@ -316,12 +316,7 @@ div[id] {
   overflow: hidden;
   height: 100%;
 }
-.width {
-  grid-column: span 2;
-}
-.height {
-  grid-row: span 2;
-}
+
 .galery__content:hover .galery__img {
   transform: scale(1.05);
   cursor: pointer;
@@ -534,7 +529,12 @@ div[id] {
   .galery {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
-
+  .width {
+    grid-column: span 2;
+  }
+  .height {
+    grid-row: span 2;
+  }
   .footer__logo {
     margin: 0;
   }
