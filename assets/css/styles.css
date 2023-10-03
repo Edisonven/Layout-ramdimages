@@ -181,7 +181,7 @@ div[id] {
   cursor: pointer;
 }
 [placeholder="BUSCAR IMAGENES"] {
-  height: 32px;
+  height: 33px;
   border: none;
   outline: 1px solid black;
   width: 90%;
