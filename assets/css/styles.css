@@ -181,9 +181,9 @@ div[id] {
 }
 [placeholder="BUSCAR IMAGENES"] {
   height: 32px;
-  font-size: 0.96rem;
   border: none;
   outline: 1px solid black;
+  width: 90%;
 }
 .header__select__container {
   height: 32px;
@@ -191,9 +191,9 @@ div[id] {
   border: none;
   background-color: var(--color-primario);
   width: 60%;
-  min-width: 200px;
   height: 34px;
   border-top: 1px solid black;
+  font-size: 0.8rem;
 }
 .header__select__container:has(:checked) {
   --rows: 1fr;
@@ -483,6 +483,7 @@ div[id] {
     height: 42px;
     width: 20%;
     min-width: 250px;
+    font-size: 1rem;
   }
   .header__select {
     height: 40px;
