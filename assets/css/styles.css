@@ -172,14 +172,14 @@ div[id] {
 .header__input__search {
   display: flex;
   align-items: center;
-  gap: 5px;
   background-color: red;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 15px 0;
   padding-right: 5px;
 }
 .header__icon {
   transform: scale(1.2);
   cursor: pointer;
+  padding: 0 10px;
 }
 [placeholder="BUSCAR IMAGENES"] {
   height: 33px;
@@ -189,7 +189,7 @@ div[id] {
 }
 .header__select__container {
   height: 32px;
-  border-radius: 10px 0 0 0;
+  border-radius: 15px 0 0 0;
   border: none;
   background-color: var(--color-primario);
   width: 60%;
