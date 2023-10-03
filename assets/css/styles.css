@@ -238,6 +238,8 @@ div[id] {
 .header__link {
   text-decoration: none;
   color: #000;
+  display: inline-block;
+  width: 90%;
 }
 .header__link:hover {
   background-color: #00000028;
@@ -473,9 +475,9 @@ div[id] {
     margin-top: 40px;
   }
   .navbar__item:hover {
-    background-color: #3333337e;
-    outline: 10px solid #3333337e;
-    border-radius: 20px;
+    background-color: #a7a7a744;
+    outline: 8px solid #a7a7a744;
+    border-radius: 8px;
   }
   .navbar__icons {
     display: none;
