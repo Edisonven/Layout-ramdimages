@@ -154,7 +154,7 @@ div[id] {
   text-decoration: none;
   margin-top: 10px;
   transition: opacity linear 0.2s;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .header__img__text:hover {
   opacity: 70%;
@@ -309,7 +309,7 @@ div[id] {
 .galery__content {
   position: relative;
   overflow: hidden;
-  height: 260px;
+  height: 100%;
 }
 .galery__content:hover .galery__img {
   transform: scale(1.05);
