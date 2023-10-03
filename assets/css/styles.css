@@ -187,7 +187,7 @@ div[id] {
   cursor: pointer;
   padding: 0 10px;
 }
-[placeholder="BUSCAR IMAGENES"] {
+[placeholder="Buscar imágenes"] {
   height: 33px;
   border: none;
   outline: 1px solid black;
@@ -523,10 +523,11 @@ div[id] {
     padding-right: 30px;
     margin-top: 0;
   }
-  [placeholder="BUSCAR IMAGENES"] {
+  [placeholder="Buscar imágenes"] {
     width: 100%;
     height: 40px;
     padding-left: 10px;
+    text-transform: uppercase;
   }
   .galery__container {
     display: flex;
