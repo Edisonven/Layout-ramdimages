@@ -327,7 +327,7 @@ div[id] {
   z-index: 2;
 }
 .galery__icon:hover {
-  outline: 2px solid #fff;
+  outline: 1px solid #fff;
 }
 .galery__icon--fav {
   position: absolute;
