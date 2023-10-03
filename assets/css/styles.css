@@ -284,6 +284,7 @@ div[id] {
   object-fit: cover;
   transition: transform linear 0.2s, filter linear 0.2s;
 }
+
 .galery__container__content {
   display: flex;
   align-items: center;
@@ -334,11 +335,11 @@ div[id] {
   padding: 10px;
 }
 .galery__content:hover .galery__icon {
-  transform: scale(1);
+  transform: scale(0.8);
 }
 .galery__icon--heart {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
   z-index: 2;
 }
@@ -347,13 +348,13 @@ div[id] {
 }
 .galery__icon--fav {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 70px;
   z-index: 2;
 }
 .galery__icon--down {
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   right: 10px;
   z-index: 2;
 }
