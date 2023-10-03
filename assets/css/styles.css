@@ -175,6 +175,7 @@ div[id] {
   background-color: red;
   border-radius: 0 15px 15px 0;
   padding-right: 5px;
+  gap: 5px;
 }
 .header__icon {
   transform: scale(1.2);
