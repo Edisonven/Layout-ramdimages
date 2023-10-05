@@ -340,7 +340,7 @@ div[id] {
   filter: brightness(75%);
 }
 .galery__img__icon {
-  background-color: #270009be;
+  background-color: #fff;
   border-radius: 10px;
   transform: scale(0);
   cursor: pointer;
@@ -356,7 +356,7 @@ div[id] {
   z-index: 2;
 }
 .galery__img__icon:hover {
-  outline: 1px solid #fff;
+  filter: brightness(80%);
 }
 .galery__img__icon--fav {
   position: absolute;
