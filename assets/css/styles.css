@@ -215,7 +215,7 @@ div[id] {
   grid-template-rows: var(--rows, 0fr);
 }
 .header__item {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .header__item--1 {
   padding-top: 20px;
@@ -508,6 +508,9 @@ div[id] {
   .header__select {
     height: 40px;
     padding: 0 10px;
+  }
+  .header__item {
+    padding-left: 30px;
   }
   .header__input {
     margin-top: 0;
